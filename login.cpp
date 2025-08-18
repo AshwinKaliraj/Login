@@ -2,6 +2,12 @@
 #include <string>
 using namespace std;
 
+void Login();
+
+int main() {
+    Login();
+}
+
 int attempts = 0;
 const int MAX_ATTEMPTS = 5;
 string correctUser = "ash";
@@ -29,6 +35,3 @@ void Login() {
     cout << "Alerting user" << endl;
 }
 
-int main() {
-    Login();
-}
